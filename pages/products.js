@@ -11,7 +11,7 @@ export default function Products() {
       setProducts(response.data);
     });
   }, []);
-  
+  console.log(products)
   return (
     <Layout>
       <div className="mt-2">
